@@ -6,13 +6,14 @@
     <body>
         <h2>heloow world PHP is fun</h2>
         <?php
-$a = 10;
-if ($a > 5) {
-    echo "YES A is above 10";
-} else {
-    echo "some thing went wrong";
-}
+// if elseif
 
+$a = 20;
+if ($a > 20) {
+    echo "a is greater than 20";
+} elseif ($a == 20) {
+    echo "yes a is equal to 20";
+}
 ?>
     </body>
 </html>
