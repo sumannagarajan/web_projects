@@ -6,10 +6,15 @@
     <body>
         <h2>heloow world PHP is fun</h2>
         <?php
-//contant case sencetive
+//constant case sencetive
 
 define("a", 10);
 echo a;
+echo "<br>";
+
+//constant key word
+const b = 90;
+echo b;
 
 ?>
     </body>
