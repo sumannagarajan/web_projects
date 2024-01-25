@@ -15,6 +15,21 @@ echo "<br>";
 //constant key word
 const b = 90;
 echo b;
+echo "<br>";
+
+// contants in array
+
+define("myfav_fruits", ["mango", "banana", "apple", "orange"]);
+echo myfav_fruits[0];
+echo "<br>";
+echo myfav_fruits[2];
+echo "<br>";
+
+//if statement in php
+
+if (1) {
+    echo "good morning.....";
+}
 
 ?>
     </body>
