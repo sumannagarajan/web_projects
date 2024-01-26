@@ -25,5 +25,6 @@ switch ($favcolor) {
 
 ?>
 
+<h2>sample heading 2</h2>
 </body>
 </html>
