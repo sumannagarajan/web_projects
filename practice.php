@@ -5,16 +5,24 @@
 
 <?php
 
-// nested if statement
-$a = 20;
-if ($a == 20) {
-    echo "yes a is equal to 20";
-    if ($a > 20) {
-        echo "yes a is greater than 20";
-    } else {
+// switch statement
+
+$favcolor = "blue";
+switch ($favcolor) {
+    case "red";
+        echo "your fav color is red";
+        break;
+    case "blue";
+        echo "your fav color is blue";
+        break;
+    case "orange";
+        echo "your fav color is orange";
+        break;
+    default:
         echo "something went wrong";
-    }
+
 }
+
 ?>
 
 </body>
