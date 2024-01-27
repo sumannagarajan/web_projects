@@ -4,12 +4,13 @@
 
 
 <?php
-//while loop
-$a = 1;
-while ($a < 10) {
+
+//do while loop---------->it will execute a block of code at least once and check the condition is true
+$a = 0;
+do {
     echo $a;
     $a++;
-}
+} while ($a < 10);
 
 ?>
 </body>
