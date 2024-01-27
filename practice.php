@@ -12,8 +12,11 @@ execute means then we go for "forloop" for is
 best loop if we know the range.
  */
 
-for ($a = 0; $a <= 10; $a++) {
-    echo "The number is : $a <br>";
+// using forloop to display 3rd tables
+$b = 3;
+for ($a = 1; $a <= 10; $a++) {
+    $c = $a * $b;
+    echo " $a X $b = $c <br>";
 }
 ?>
 </body>
