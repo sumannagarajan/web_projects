@@ -4,18 +4,16 @@
 
 
 <?php
-//function and aruguments
-
-function familyname($fname, $year, $age)
+// function returning value
+function sum($a, $b)
 {
-    echo "$fname nagarajan born in year of $year and age is $age";
-
+    $c = $a + $b;
+    return $c;
 }
-familyname("suman", "2001", "22");
-echo "<br>";
-familyname("varsha", "2006", "15");
-echo "<br>";
-familyname("kanachana", "1981", "40");
+echo sum(20, 20) . "<br>";
+echo sum(10, 20) . "<br>";
+echo sum(20, 40) . "<br>";
+
 ?>
 </body>
 </html>
