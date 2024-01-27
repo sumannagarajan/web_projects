@@ -4,15 +4,18 @@
 
 
 <?php
+//function and aruguments
 
-// user defined function
-
-function mymsg()
+function familyname($fname, $year, $age)
 {
-    echo "hello user have a good day";
-}
+    echo "$fname nagarajan born in year of $year and age is $age";
 
-mymsg();
+}
+familyname("suman", "2001", "22");
+echo "<br>";
+familyname("varsha", "2006", "15");
+echo "<br>";
+familyname("kanachana", "1981", "40");
 ?>
 </body>
 </html>
