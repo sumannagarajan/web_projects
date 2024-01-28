@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-
 <?php
-
-//foreach loop statement
-
-$arr = array("red", "green", "blue", "orange");
-foreach ($arr as $x) {
-    echo " $x <br>\n";
+// foreach loop key=>value statement
+$arr = array("ramesh" => "23", "sures" => "22", "suman" => "24");
+foreach ($arr as $x => $y) {
+    echo "$x : $y <br>";
 }
 ?>
 </body>
