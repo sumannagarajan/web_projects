@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<body>
 <?php
-// foreach loop key=>value statement
-$arr = array("ramesh" => "23", "sures" => "22", "suman" => "24");
-foreach ($arr as $x => $y) {
-    echo "$x : $y <br>";
+//default aruguments value
+function fruit($favfruit = "apple")
+{
+    echo " my fav fruit is $favfruit <br>";
 }
-?>
-</body>
-</html>
+fruit("banana");
+fruit();
+fruit("starwberry");
+fruit("blueberry");
