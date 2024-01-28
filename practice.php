@@ -4,16 +4,13 @@
 
 
 <?php
-// function returning value
-function sum($a, $b)
-{
-    $c = $a + $b;
-    return $c;
-}
-echo sum(20, 20) . "<br>";
-echo sum(10, 20) . "<br>";
-echo sum(20, 40) . "<br>";
 
+//foreach loop statement
+
+$arr = array("red", "green", "blue", "orange");
+foreach ($arr as $x) {
+    echo " $x <br>\n";
+}
 ?>
 </body>
 </html>
