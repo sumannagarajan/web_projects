@@ -1,18 +1,9 @@
-<?php
-/*
-function funadd($a, $b)
-{
-$c = $a + $b;
-return $c;
-}
-echo funadd(20, 23) . "<br>";       // function------> passing value to the arruguments
-echo funadd(2, 4) . "<br>";
-echo funadd(22, 3) . "<br>";*/
 
-function mul5(&$value)
+<?php
+//variable no of arrguements
+function sumarr(...$a) // variadic function / variadic function becomes array
 {
-    $value = $value * 5;
+    return array_sum($a);
 }
-$num = 7;
-mul5($num); //function ------> passing reference to the arruguments
-echo "$num <br>";
+$x = sumarr(10, 3, 4, 5, 6, 7, 3);
+echo $x;
