@@ -1,9 +1,14 @@
-
 <?php
-//variable no of arrguements
-function sumarr(...$a) // variadic function / variadic function becomes array
+//example for variadic function
+function sumarr(...$x)
 {
-    return array_sum($a);
+    $len = count($x);
+    $n = 0;
+    for ($i = 0; $i < $len; $i++) {
+        $n += $x[$i];
+    }
+    return $n; //It will retunrs sum of array
+
 }
-$x = sumarr(10, 3, 4, 5, 6, 7, 3);
-echo $x;
+$a = sumarr(10, 20, 30, 40, 50);
+echo "$a";
