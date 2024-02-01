@@ -1,6 +1,6 @@
 <?php
-// array push function
-$stuname = array("suman", "ram", "gopal", "shiva", "mohan", "arun", "bala", "hariharan", "viknesh", "subash");
-array_push($stuname, "srihari", "venkatram", "subramani", "jon", "mahi", "virat", "rohit", "anbumani", "vimal", "surya");
-
-print_r($stuname);
+// Associative arrays and accessing associative array
+$studetails = array("name" => "suman", "rollno" => "20ecl236", "dob" => "07-09-2001", "address" => "erode district");
+echo $studetails["name"] . "<br>";
+echo $studetails["dob"] . "<br>";
+echo $studetails["rollno"] . "<br>";
