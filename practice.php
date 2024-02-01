@@ -1,10 +1,5 @@
 <?php
-//update array items in foreach loop
-$favsanks = array("chips", "biscut", "carmelcandies", "piza", "burger", "bondas");
-foreach ($favsanks as &$x) {
-    $x = "potato chips";
-
-}
-//unset($x); //without unset function
-$x = "cookkies";
-print_r($favsanks);
+// remove array item
+$randomnames = array("suman", "viknesh", "arun", "vimal", "nantha", "surya", "arul", "sri");
+unset($randomnames[5]);
+print_r($randomnames);
