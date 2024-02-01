@@ -1,8 +1,8 @@
 <?php
-//strict declaration
-declare (strict_types = 1);
-function sumadd(int $a, float $b): float
-{
-    return $a + $b;
-}
-echo sumadd(12, 109.4);
+// practicing simple array
+
+$stuname = array("suman", "ram", "gopal", "shiva", "mohan", "arun", "bala", "hariharan", "viknesh", "subash");
+$a = 10;
+$b = "hello";
+var_dump($stuname); //This function is used to display the details about value like which data types
+print_r($stuname); // This function is used to display the content inside the array
