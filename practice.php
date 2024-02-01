@@ -1,5 +1,7 @@
 <?php
-//changing value to associative array
+//Associative array
+//Loop through an array by using foreach loop
 $studetails = array("name" => "suman", "rollno" => "20ecl236", "dob" => "07-09-2001", "address" => "erode district");
-$studetails["name"] = "sumannagarajan";
-print_r($studetails);
+foreach ($studetails as $a => $b) {
+    echo "$a : $b <br>\n";
+}
