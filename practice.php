@@ -18,7 +18,7 @@ $student_details = array(
 print_r($student_details);
 //accessing the 2D array.
 echo $student_details[0][2] . "<br>";
-echo $student_details[2][2] . "<br>"
+echo $student_details[2][2] . "<br>";
 
 ?>
         </pre>
