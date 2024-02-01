@@ -1,8 +1,6 @@
 <?php
-// loop through an array by using for loop
-
+// array push function
 $stuname = array("suman", "ram", "gopal", "shiva", "mohan", "arun", "bala", "hariharan", "viknesh", "subash");
-$len = count($stuname);
-for ($i = 0; $i < $len; $i++) {
-    echo "stuname[$i] = $stuname[$i]" . "<br>\n";
-}
+array_push($stuname, "srihari", "venkatram", "subramani", "jon", "mahi", "virat", "rohit", "anbumani", "vimal", "surya");
+
+print_r($stuname);
