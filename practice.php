@@ -1,5 +1,5 @@
 <?php
-//Remove itemfrom associatice array
-$cars = array("name" => "honda", "model" => "city", "year" => "1995");
-unset($cars["year"]);
-print_r($cars);
+//array sorting by using sort function
+$favfood = array("briyani", "chiken gravy", "mutton paya", "fishfry", "chilychicken", "lollipop chiken", "beef rice", "mashroom briyani");
+sort($favfood); // This function is used for array ascending alphabetical order
+print_r($favfood);
