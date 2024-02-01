@@ -14,13 +14,14 @@ $student_details = array(
     array("surya", "age23", "20ecl237"),
     array("viknesh", "age 24", "20ecl241"),
 );
-//display the arrays content.
-print_r($student_details);
-//accessing the 2D array.
-echo $student_details[0][2] . "<br>";
-echo $student_details[2][2] . "<br>";
-
+//loop through the 2D array
+for ($i = 0; $i < 3; $i++) {
+    echo "row value is $i<br>";
+    for ($j = 0; $j < 3; $j++) {
+        echo $student_details[$i][$j] . "<br>";
+    }
+}
 ?>
-        </pre>
+    </pre>
   </body>
 </html>
