@@ -1,5 +1,5 @@
 <?php
 //array sorting by using sort function
-$favfood = array("briyani", "chiken gravy", "mutton paya", "fishfry", "chilychicken", "lollipop chiken", "beef rice", "mashroom briyani");
-sort($favfood); // This function is used for array ascending alphabetical order
-print_r($favfood);
+$favnum = array(7, 5, 3, 10, 6, 2);
+sort($favnum); // here it will sort the numbers in ascending order
+print_r($favnum);
