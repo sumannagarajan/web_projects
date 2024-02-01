@@ -5,6 +5,6 @@ foreach ($favsanks as &$x) {
     $x = "potato chips";
 
 }
-unset($x); //with unset function
-//$x = "cookkies";
+//unset($x); //without unset function
+$x = "cookkies";
 print_r($favsanks);
