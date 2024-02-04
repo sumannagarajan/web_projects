@@ -1,6 +1,6 @@
 <?php
 function load_template($name)
 {
-    include $_SERVER['DOCUMENT_ROOT'] . "/app/_templates/$name.php"; // not consistent
+    include $_SERVER['DOCUMENT_ROOT'] . "/app/_templates/$name.php"; //consistent way
 
 }
