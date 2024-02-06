@@ -23,11 +23,32 @@ include 'libs/load.php';
       user-select: none;
     }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
   </style>
 </head>
 <body>
@@ -58,14 +79,10 @@ load_template('_header'); //loaded _header template from libs
   </header>
 
   <main>
-    <?php
-load_template('_calltoaction'); //loaded _calltoaction template from libs
+   </main>
+<?php
+load_template('_login');
 ?>
-    <?php
-load_template('_photogram'); //loaded _photogram template from libs
-?>
-  </main>
-
   <?php
 load_template('_footer'); //loaded _footer template from libs
 ?>
