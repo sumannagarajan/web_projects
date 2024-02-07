@@ -7,6 +7,7 @@
         <h2>THIS IS SAMPLE PAGE</h1>
         <pre>
         <?php
+//global variables
 print("_SERVER \n");
 print_r($_SERVER);
 print("_GET \n");
