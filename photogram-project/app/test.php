@@ -16,13 +16,14 @@ include 'libs/load.php';
 // }
 // else
 // {
-//     echo "failed to sign up!!!!";   
+//     echo "failed to sign up!!!!";
 // }
-$mic1 = new mic(); //constructing the object
-$mic2 = new mic();
-$mic1->brand="hcl";
-$mic2->brand="lg";
-$mic1->price="rs.100";
-$mic1->setprice("rs200");
+$mic1 = new mic('super'); //constructing the object
+// $mic2 = new mic();
+// $mic1->brand="hcl";
+// $mic2->brand="lg";
+// $mic1->price="rs.100";
+// $mic1->setprice("rs200");
+
 ?>
 </pre>
