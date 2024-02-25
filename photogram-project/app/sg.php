@@ -1,7 +1,7 @@
 <pre>
     <?php
-session_start(); /// it is in bulid function ----------> it will inisiatilize the session
-setcookie("testcookie", "testvalue", time() + (86400 * 30), "/");
+// it is in bulid function ----------> it will inisiatilize the session
+//setcookie("testcookie", "testvalue", time() + (86400 * 30), "/");
 include 'libs/load.php';
 
 // $mic1 = new mic();//constructing the object
@@ -10,7 +10,7 @@ include 'libs/load.php';
 // $mic1->brand="samsung";
 // $mic2->brand="poco";
 // printf($mic1->brand);
-// echo "<br>";
+// echo "<br>"; 
 // printf($mic2->brand);
 // $mic1->light="blue";
 // $mic1->setlight("green");
@@ -20,10 +20,10 @@ include 'libs/load.php';
 print("_SESSION \n");
 print_r($_SESSION);
 //we can persist data acrosss requests.
-if(isset($_SESSION['a'])){
-    printf("a is alredy is there $_SESSION[a]");
+if(session::isset('a')){
+    printf("a is alredy is there value ".session::get('a')."\n");
 }else{
-    $_SESSION['a']=time();
+    session::set('a',time());
     print("assing the value of a is $_SESSION[a]\n");
 }
 

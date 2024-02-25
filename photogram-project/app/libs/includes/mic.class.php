@@ -6,25 +6,24 @@ Acess specifiers
 1.public
 2.private
 3.protected
- */
+*/
 class mic
 {
-    public function __construct($brand)
-    {
-        printf("constructing object");
-        $this->brand = $brand;
-
-    }
     public $brand;
     public $color;
-    public $usb_port;
-    public $modelname;
+    public $port;
+    public $model;
     public $light;
     public $price;
-    public function setprice($price)
+    
+    public static function testfunction()
     {
-        print($price);
-        printf($this->price);
-
+        printf("THIS IS SAMPLE FUMCTION FOR PRACTICE");
     }
+
+    public function setlight($light)
+    {
+    $this->light = $light;
+    }
+
 }
